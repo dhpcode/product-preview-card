@@ -79,6 +79,30 @@ select:-webkit-autofill:focus {
 	flex-grow: 1;
 }
 
+.card {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-image {
+}
+.card-content {
+}
+.card-content-header {
+}
+.card-content-title {
+}
+.card-content-text {
+}
+.card-content-price {
+}
+.card-content-action {
+}
+.card-content-action-link {
+}
+
+
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 	only screen and (min--moz-device-pixel-ratio: 2),
