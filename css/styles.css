@@ -197,7 +197,7 @@ select:-webkit-autofill:focus {
 	.card {
 		flex-direction: column;
 		width: 343px;
-		height: 95%;
+		height: auto;
 	}
 	.card-image .product-image {
 		display: block;
@@ -205,11 +205,13 @@ select:-webkit-autofill:focus {
 		height: 240px;
 		object-fit: cover;
 		object-position: bottom center;
+		border-radius: 10px 10px 0 0;
 	}
 
 	.card-content {
 		width: 100%;
 		padding: 24px;
+		border-radius: 0 0 10px 10px;
 	}
 
 	.card-content-header {
