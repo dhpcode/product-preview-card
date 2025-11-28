@@ -166,6 +166,9 @@ select:-webkit-autofill:focus {
 .card-content-action-link:hover {
   background-color: #1a4032;
 }
+.card-content-action-link:active {
+  opacity: 0.8;
+}
 .card-content-action-link img {
 	display: block;
 	width: 15px;
